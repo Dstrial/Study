@@ -9,8 +9,8 @@ using Random = UnityEngine.Random;
 public class Background : MonoBehaviour {
 
     [SerializeField][Range(0.5f, 20f)] float waterSpeed = 3f;
-    [SerializeField][Range(0.5f, 20f)] float mountainSpeed = 1f;
-    [SerializeField][Range(0.5f, 20f)] float cloudSpeed = 1f;
+    [SerializeField][Range(0.5f, 10f)] float mountainSpeed = 1f;
+    [SerializeField][Range(0.1f, 5f)] float cloudSpeed = 0.5f;
 
     List<Transform> waters = new List<Transform>();
     List<Transform> mountain = new List<Transform>();
